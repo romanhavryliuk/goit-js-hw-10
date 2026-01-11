@@ -1,0 +1,67 @@
+/* Стиль Snackbar */
+
+
+/* Контейнер форми */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 360px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+/* Поле вводу Delay */
+.form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    padding: 8px 12px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+input[type="number"]:hover {
+    border-color: #000;
+}
+
+/* Оформлення Fieldset (State) */
+fieldset {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+legend {
+    padding: 0 4px;
+    font-size: 14px;
+}
+
+/* Радіокнопки */
+fieldset label {
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Кнопка */
+.create-btn {
+    padding: 10px;
+    background-color: #efefef;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-btn:hover {
+    background-color: #e0e0e0;
+}
